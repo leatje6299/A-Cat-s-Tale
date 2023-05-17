@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147129560317226305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147129560317226306}
+  - component: {fileID: 147129560317226307}
+  - component: {fileID: 147129560317226332}
+  m_Layer: 0
+  m_Name: NewLevel2
+  m_TagString: tailLevel
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147129560317226306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147129560317226305}
+  m_LocalRotation: {x: -0, y: -0.19518402, z: -0, w: 0.98076665}
+  m_LocalPosition: {x: 20.1, y: 5.4, z: -81.6}
+  m_LocalScale: {x: 1, y: 1, z: 0.79677}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 147129560519373062}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -22.511, z: 0}
+--- !u!65 &147129560317226307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147129560317226305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 66.00837, y: 4.6301575, z: 19.041483}
+  m_Center: {x: -10.787091, y: 0.1084137, z: 2.486086}
+--- !u!114 &147129560317226332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147129560317226305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb11fbdf208b85447a32da56f1df4a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level2Spawn: {fileID: 147129560519373061}
+  robotAI: {fileID: 0}
+  human: {fileID: 0}
+--- !u!1 &147129560519373061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147129560519373062}
+  m_Layer: 0
+  m_Name: NewLevelSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147129560519373062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147129560519373061}
+  m_LocalRotation: {x: -0, y: -0.99974567, z: -0, w: 0.022554144}
+  m_LocalPosition: {x: -14.347487, y: -1.639998, z: -85.66327}
+  m_LocalScale: {x: 1.0004137, y: 1, z: 1.254417}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 147129560317226306}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
